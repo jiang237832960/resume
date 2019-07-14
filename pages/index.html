@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>姜先生</title>
-    </head>
-    <body>
-        <!--顶部导航部分 Start-->
-        <header>
-            <img src="../img/logo.jpg" alt="logo" >
+
+<head>
+    <title>姜先生</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <!--顶部导航部分 Start-->
+    <header class="clearfix">
+        <div class="top-nav">
+            <a href="./index.html" class="logo">
+                <span>JZQ</span>card
+            </a>
             <nav>
-                <ul>
+                <ul class="clearfix">
                     <li><a href="#1">关于</a></li>
                     <li><a href="#2">技能</a></li>
                     <li><a href="#3">经验</a></li>
@@ -19,12 +25,14 @@
                     <li><a href="#8">其他</a></li>
                 </ul>
             </nav>
-        </header>
-        <!--顶部导航部分 End-->
+        </div>
         <div class="banner"></div>
-        <!--我的资料部分 Start-->
-        <main id="1">
-            <div>
+    </header>
+    <!--顶部导航部分 End-->
+    <main>
+        <div class="conten">
+            <!--我的资料部分 Start-->
+            <div id="1" class="about-me">
                 <!--我的照片-->
                 <div class="myPicture">
                     <img src="../img/myPicture.jpg" alt="个人生活照">
@@ -72,70 +80,72 @@
             </div>
             <button>点击下载简历</button>
             <p>姜智强，前端开发工程师</p>
-        </main>
-        <!--我的资料部分 End-->
-        <!--工作技能部分 Start-->
-        <div class="mySkills" id="2">
-            <h2>专业技能</h2>
-            <div class="skill-6sm">
-                <span>JavaScript</span>
+            <!--我的资料部分 End-->
+            <!--工作技能部分 Start-->
+            <div class="mySkills" id="2">
+                <h2>专业技能</h2>
+                <div class="skill-6sm">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-6sm">
+                    <span>HTML &amp; CSS</span>
+                </div>
+                <div class="skill-6sm">
+                    <span>Vue.js</span>
+                </div>
+                <div class="skill-6sm">
+                    <span>MySql</span>
+                </div>
+                <div class="skill-6sm">
+                    <span>占位</span>
+                </div>
+                <div class="skill-6sm">
+                    <span>占位</span>
+                </div>
             </div>
-            <div class="skill-6sm">
-                <span>HTML &amp; CSS</span>
+            <!--工作技能部分 End-->
+            <!--工作经验部分 Start-->
+            <div class="work-Experience" id="3">
+                <h2>工作经验</h2>
+                <div class="exper-3sm">
+                    <span class="job-time">2016-2017.6</span>
+                    <p class="company">浙江九配科技</p>
+                    <p class="job-content">ERP系统开发，主要职责为ERP系统功能优化，客户需求调查，开发新功能，ERP系统维护</p>
+                </div>
+                <div class="exper-3sm">
+                    <span class="job-time">2016-2017.6</span>
+                    <p class="company">重庆易昂科技</p>
+                    <p class="job-content">产品运营，</p>
+                </div>
+                <div class="exper-3sm">
+                    <span class="job-time"></span>
+                    <p class="company"></p>
+                    <p class="job-content"></p>
+                </div>
             </div>
-            <div class="skill-6sm">
-                <span>Vue.js</span>
+            <!--工作经验部分 End-->
+            <!--项目经验部分 Start-->
+            <div class="pro-Experience" id="4">
+                <h2>项目经验</h2>
+                <div class="pro-exper-3sm">
+                    <span class="job-time"></span>
+                    <p class="company"></p>
+                    <p class="pro-content"></p>
+                </div>
+                <div class="pro-exper-3sm">
+                    <span class="job-time"></span>
+                    <p class="company"></p>
+                    <p class="pro-content"></p>
+                </div>
+                <div class="pro-exper-3sm">
+                    <span class="job-time"></span>
+                    <p class="company"></p>
+                    <p class="pro-content"></p>
+                </div>
             </div>
-            <div class="skill-6sm">
-                <span>MySql</span>
-            </div>
-            <div class="skill-6sm">
-                <span>占位</span>
-            </div>
-            <div class="skill-6sm">
-                <span>占位</span>
-            </div>
+            <!--项目经验部分 End-->
         </div>
-        <!--工作技能部分 End-->
-        <!--工作经验部分 Start-->
-        <div class="work-Experience" id="3">
-            <h2>工作经验</h2>
-            <div class="exper-3sm">
-                <span class="job-time">2016-2017.6</span>
-                <p class="company">浙江九配科技</p>
-                <p class="job-content">ERP系统开发，主要职责为ERP系统功能优化，客户需求调查，开发新功能，ERP系统维护</p>
-            </div>
-            <div class="exper-3sm">
-                <span class="job-time">2016-2017.6</span>
-                <p class="company">重庆易昂科技</p>
-                <p class="job-content">产品运营，</p>
-            </div>
-            <div class="exper-3sm">
-                <span class="job-time"></span>
-                <p class="company"></p>
-                <p class="job-content"></p>
-            </div>
-        </div>
-        <!--工作经验部分 End-->
-        <!--项目经验部分 Start-->
-        <div class="pro-Experience" id="4">
-            <h2>项目经验</h2>
-            <div class="pro-exper-3sm">
-                <span class="job-time"></span>
-                <p class="company"></p>
-                <p class="pro-content"></p>
-            </div>
-            <div class="pro-exper-3sm">
-                <span class="job-time"></span>
-                <p class="company"></p>
-                <p class="pro-content"></p>
-            </div>
-            <div class="pro-exper-3sm">
-                <span class="job-time"></span>
-                <p class="company"></p>
-                <p class="pro-content"></p>
-            </div>
-        </div>
-        <!--项目经验部分 End-->
-    </body>
+    </main>
+</body>
+
 </html>

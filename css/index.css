@@ -1,0 +1,83 @@
+/* 统一设置部分 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    /* 取消标签的默认样式 */
+}
+li{
+    list-style: none;
+    /* 取消标签的默认样式 */
+}
+
+/* 解决浮动照成的容器塌陷问题 */
+
+.clearfix {
+    zoom: 1;
+    /*Zoom属性：IE浏览器专用属性，为了兼容IE老版本所写*/
+}
+
+.clearfix:after {
+    /*：after伪对象选择符:表示该元素在浏览器渲染过后添加指定的内容*/
+    content: "";
+    /*content属性：配合伪对象选择符的专用属性，必须写，值可以是" ",是浏览器渲染之后添加的内容*/
+    display: block;
+    /*将添加的元素转换成块状元素*/
+    visibility: hidden;
+    /*visibility属性：控制元素的可见性，hidden为不可见，即不显示在页面视觉效果中，无论是否显示，都会保留其物理空间。（与display:none;的比较）*/
+    height: 0;
+    /*将添加的内容高度设置为0，消除其占位*/
+    clear: both;
+    /*将添加进去的内容设置为清除浮动的对象，以实现外围容器之中有内容存在，因此可以自动判断高度，解决塌陷问题*/
+}
+
+/* 导航部分 */
+header>.top-nav {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+header>.top-nav>.logo {
+    color: #9A9DA2;
+    float: left;
+    padding: 3.5px 0;
+}
+
+header>.top-nav>.logo>span {
+    color: #E8676B;
+    font-size: 24px;
+    margin-right: 4px;
+    font-family: 'Bahnschrift SemiBold';
+}
+
+header>.top-nav>nav {
+    float: right;
+}
+
+header>.top-nav>nav>ul>li {
+    float: left;
+    margin: 0 17px;
+    padding: 6.5px 0 5.5px;
+    border-bottom: 3px solid transparent;
+}
+header>.top-nav>nav>ul>li:hover {
+    border-bottom: 3px solid #E8676B;
+}
+
+header>.top-nav>nav>ul>li>a {
+    color: #E8676B;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* 主体部分 */
+.conten{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
