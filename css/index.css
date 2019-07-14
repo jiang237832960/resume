@@ -53,6 +53,7 @@ header>.head-bar>.top-nav {
 header>.head-bar>.top-nav>.logo {
     color: #9A9DA2;
     float: left;
+    display: block;
     padding: 3.5px 0;
 }
 
