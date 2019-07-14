@@ -36,41 +36,48 @@ li{
 }
 
 /* 导航部分 */
-header>.top-nav {
+header{
+    margin-bottom: 40px;
+}
+header>.head-bar {
+    width: 100%;
+    padding: 10px 0;
+}
+header>.head-bar>.top-nav {
     width: 100%;
     max-width: 1350px;
-    margin: 0 auto;
-    padding: 20px 15px;
+    margin: 0px auto;
+    padding: 10px 15px;
 }
 
-header>.top-nav>.logo {
+header>.head-bar>.top-nav>.logo {
     color: #9A9DA2;
     float: left;
     padding: 3.5px 0;
 }
 
-header>.top-nav>.logo>span {
+header>.head-bar>.top-nav>.logo>span {
     color: #E8676B;
     font-size: 24px;
     margin-right: 4px;
     font-family: 'Bahnschrift SemiBold';
 }
 
-header>.top-nav>nav {
+header>.head-bar>.top-nav>nav {
     float: right;
 }
 
-header>.top-nav>nav>ul>li {
+header>.head-bar>.top-nav>nav>ul>li {
     float: left;
     margin: 0 17px;
     padding: 6.5px 0 5.5px;
     border-bottom: 3px solid transparent;
 }
-header>.top-nav>nav>ul>li:hover {
+header>.head-bar>.top-nav>nav>ul>li:hover {
     border-bottom: 3px solid #E8676B;
 }
 
-header>.top-nav>nav>ul>li>a {
+header>.head-bar>.top-nav>nav>ul>li>a {
     color: #E8676B;
     font-size: 12px;
     font-weight: bold;
