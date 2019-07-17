@@ -44,7 +44,7 @@ header{
 }
 header .banner{
     height: 520px;
-    background-image: url(https://w.wallhaven.cc/full/md/wallhaven-md22vk.jpg);
+    background-image: url(../img/wallhaven-md22vk.jpg);
     background-size: cover;
     /* 背景图自适应盒子大小 */
 }
