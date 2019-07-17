@@ -43,7 +43,7 @@ header{
     margin-bottom: 40px;
 }
 header .banner{
-    height: 520px;
+    height: 480px;
     background-image: url(../img/wallhaven-md22vk.jpg);
     background-size: cover;
     /* 背景图自适应盒子大小 */
@@ -102,8 +102,31 @@ header .head-bar .top-nav>nav>ul>li>a {
     font-weight: bold;
 }
 /* 主体部分 */
-.conten{
+main .content{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+}
+main .content .about-me{
+    height: 100%;
+    margin-top: -340px;
+    background-color: #fff;
+    padding: 57px 50px 15px;
+    border: #E8676B 1px solid;
+}
+main .content .about-me .myPicture{
+    width: 36%;
+    float: left;
+    padding: 0 15px;
+    border: blueviolet 1px solid;
+}
+main .content .about-me .myProfile{
+    float: left;
+    width: 56%;
+    padding: 0 15px;
+    border: blue 1px solid;
+}
+main .content .about-me .profile-info{
+    text-align: center;
+    font-size: 20px;
 }
