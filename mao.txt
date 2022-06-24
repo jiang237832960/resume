@@ -1028,7 +1028,6 @@
       "filterable": 0
     },
 {"key":"丝袜资源","name":"丝袜资源","type":1,"api":"https://siwazyw.cc/api.php/provide/vod/","searchable":0,"quickSearch":0},
-{"key":"花魁资源","name":"花魁资源","type":1,"api":"https://caiji.huakuiapi.com/inc/apijson_vod.php","searchable":0,"quickSearch":0},
 {"key":"芒果资源","name":"芒果资源","type":1,"api":"https://mgzyz1.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
 {"key":"水蜜桃","name":"水蜜桃","type":1,"api":"http://51smt4.xyz/api.php/provide/vod/","searchable":0,"quickSearch":0},
 {"key":"秀色资源","name":"秀色资源","type":1,"api":"https://api.xiuseapi.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
@@ -1117,7 +1116,6 @@
 {"key":"*鲨鱼资源","name":"*鲨鱼资源","type":1,"api":"https://shayuapi.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
 {"key":"*速度资源","name":"*速度资源","type":0,"api":"http://www.ggmmzy.com:9999/inc/xml","searchable":0,"quickSearch":0},
 {"key":"*KK写真资源","name":"*KK写真资源","type":1,"api":"https://kkzy.me/api.php/provide/vod/","searchable":0,"quickSearch":0},
-{"key":"乐鱼","name":"乐鱼","type":1,"api":"https://www.leyuzyapi.com/inc/api.php","searchable":0,"quickSearch":0},
 {
       "key": "csp_xpath_xxj",
       "name": "新香蕉(XP)",
